@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap')
 
-.inter-normal{
+#inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -9,13 +9,10 @@
 }
 body{
   font-family: Inter;
-  width: 1100px;
-  height: 450px;
-  margin: 50px;
-  margin-bottom: 0px;
+  width: 1200px;
+  margin: 50px 100px;
   background-color: #111111f6;
   color: #fff;
-  margin-top: 10px;
   justify-content: center;
 }
 p{
@@ -35,9 +32,9 @@ button:hover{
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 50px 50px 10px 50px;
+  /* margin: 50px 50px 10px 50px;
   width: 100%;
-  padding: 20px 40px;
+  padding: 20px 40px; */
 }
 th,td{
   color: #ffffffb0;
@@ -92,11 +89,11 @@ color: purple;}
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* margin: 50px 50px 50px 100px; */
 }
 .hero-content{
   width: 500px;
   height: 400px;
-  margin: 10px 20px 30px 80px;
   /* border: 1px solid beige; */
   text-align: justify;
 }
@@ -147,7 +144,7 @@ color: purple;}
   /* border: 1px solid aliceblue; */
   display: flex;
   justify-content: flex-end;
-  margin-right: -80px;
+  /* margin-right: -80px; */
 }
 .hero-image{
   margin-top: 0px;
@@ -766,7 +763,74 @@ td{
   text-align: center;
   margin-top: 25px;
 }
+/* Responsive Web Development */
+.hide{
+  display: none;
+  
+}
 
+@media screen and (max-width: 576px){
+  body{
+    width: calc(100vw - 40px);
+    margin: 20px;
+  }
+  .container{
+    width: calc(100vw - 40px);
+  }
+  
+  nav{
+    flex-direction: column;
+    width: calc(100vw - 40px);
+    padding: 0;
+    margin: 0;
+  }
+  .nav-bar{
+    width: calc(100vw - 40px);
+    border: none;
+    margin-top: 20px;
+  }
+  .sites{
+    padding: 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .hero{
+    width: calc(100vw - 40px);
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .hero-content{
+    width: calc(100vw - 40px);
+    height: 100;
+    margin-top: 70px;
+    padding: 0;
+  }
+  .hero-content .heading{
+    width: calc(100vw - 40px);
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .buttons{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .hero-content .description{
+    margin-top: 0;
+  }
+  .image{
+    width: calc(100vw - 40px);
+    margin: 20px;
+  }
+  .hero-image{
+    margin-right: 0;
+    width: 100%;
+  }
+  .buttons a{
+    padding: 10px;
+  }
+}
 
 
 
