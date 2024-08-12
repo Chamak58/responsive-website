@@ -189,70 +189,35 @@ color: purple;}
 .card .secondary .text{
   margin: 0px  25px 20px 0px;
 }
-.banner{
-  width: 1100px;
-  height: 550px;
-  margin: 50px;
-  margin-left: 80px;
-  margin-bottom: 120px;
-}
+
 .banner .heading{
   font-size: 50px;
-  justify-content: center;
-  display: flex;
+  text-align: center;
 }
 .banner .description{
   font-size: 20px;
-  font-family: Georgia;
-  display: flex;
-  justify-content: center;
   line-height: 30px;
+  text-align: center;
 }
-.banner .picture{
+.lifestyles{
   display: flex;
   justify-content: space-between;
+  column-gap: 50px;
+  margin: 25px;
 }
-.banner .picture .movement{
-  border-radius: 100px;
-  width: 220px;
-  height: 220px;
-  border: 5px solid #62606043;
+.lifestyles div{
+  justify-content: center;
+  /* border: 1px solid aquamarine; */
+  width: 250px; 
 }
-.banner .picture .time{
-  border-radius: 100px;
-  width: 220px;
-  height: 220px;
-  border: 5px solid #62606043;
+.lifestyles div>img{
+  width: 100%;
+  border-radius: 100%;
+  border: 2px solid #87818183;
 }
-.banner .picture .practice{
-  border-radius: 100px;
-  width: 220px;
-  height: 220px;
-  border: 5px solid #62606043;
-}
-.banner .picture .weight-loss{
-  border-radius: 100px;
-  width: 220px;
-  height: 220px;
-  border: 5px solid #62606043;
-}
-.banner .info{
-  display: flex;
-  justify-content: space-around;
-  gap: 40px;
-  /* border: 2px solid aliceblue; */
-}
-.banner .info .heading{
-  font-size: 22px;
+.lifestyles div>h2{
+  text-align: center;
   margin-top: 5px;
-}
-.banner .info .description{
-  font-size: 18px;
-  margin-top: -40px;
-  line-height: 20px;
-  text-align: justify;
-  width: 220px;
-  line-height: 20px;
 }
 .run{
   width: 1100px;
@@ -765,11 +730,10 @@ td{
 }
 /* Responsive Web Development */
 .hide{
-  display: none;
-  
+  display: none;  
 }
-
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px)
+{
   body{
     width: calc(100vw - 40px);
     margin: 20px;
@@ -830,7 +794,33 @@ td{
   .buttons a{
     padding: 10px;
   }
+  .banner{
+    width: 100%;
+    margin: 0;
+  }
+  .banner .heading{
+    font-size: 2em;
+    text-align: start;
+  }
+  .banner .description{
+    margin: 30px 0 20px 0;
+    text-align: justify;
+    font-size: 20px;
+
+  }
+  .lifestyles{
+    flex-direction: column;
+    margin: 0;
+  }
+  .lifestyles div{
+    width: 100%;
+    margin: 0;
+  }
+  .lifestyles div>p{
+    font-size: 18px;
+  }
 }
+  
 
 
 
