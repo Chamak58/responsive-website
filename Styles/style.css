@@ -32,9 +32,6 @@ button:hover{
 nav{
   display: flex;
   justify-content: space-between;
-  /* margin: 50px 50px 10px 50px;
-  width: 100%;
-  padding: 20px 40px; */
 }
 th,td{
   color: #ffffffb0;
@@ -52,19 +49,16 @@ color: purple;}
   height: 50px;
   border: 1px solid rgba(220, 220, 220, 0.129);
   border-radius: 20px;
-
 }
 .sites{
   list-style: none;
   justify-content: space-between;
   font-size: 22px;
-  /* padding:0px 20px 25px 20px; */
   align-items: center;
   display: flex;
   padding-left: 0px;
   padding-right: 25px;
   margin-top: 0px;
-  /* margin-bottom: 5px; */
 }
 .site-name{
   background-color: #ff8c00aa;
@@ -89,7 +83,6 @@ color: purple;}
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* margin: 50px 50px 50px 100px; */
 }
 .hero-content{
   width: 500px;
@@ -144,7 +137,6 @@ color: purple;}
   /* border: 1px solid aliceblue; */
   display: flex;
   justify-content: flex-end;
-  /* margin-right: -80px; */
 }
 .hero-image{
   margin-top: 0px;
@@ -154,7 +146,6 @@ color: purple;}
   width: 140px;
   height: 70px;
   border-radius: 15px;
-  /* background-color: #8080803b; */
   background-color: #62606043;
   color: #fff;
   border: none;
@@ -174,7 +165,6 @@ color: purple;}
   width: 120px;
   height: 60px;
   border-radius: 15px;
-  /* background-color: rgb(36, 36, 227); */
   background-color: #0c0c0cb3;
   color: #fff;
   border: none;
@@ -220,11 +210,8 @@ color: purple;}
   margin-top: 5px;
 }
 .run{
-  width: 1100px;
-  height: 400px;
   display: flex;
   justify-content: space-between;
-  margin-left: 80px;
   background-color: #62606043;
   border-radius: 20px;
 }
@@ -266,9 +253,6 @@ color: purple;}
   border-radius: 20px;
 }
 .chart{
-  width: 1100px;
-  height: 740px;
-  margin-left: 80px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -284,14 +268,13 @@ color: purple;}
   margin-top: -20px;
 }
 .chart .content{
-  width: 1100px;
   background-color: #62606077;
   display: flex;
   justify-content: space-between;
   border-radius: 20px;
 }
 .chart .content .chart-content{
-  width: 350px;
+  width: 400px;
   height: 420px;
   margin-left: 50px;
   /* border: 2px solid yellow; */
@@ -368,8 +351,6 @@ td{
   padding-left: 10px;
   border: none;  
 }
-
-
 .chart .content .calculator-content .bmi-form .weight{
   font-size: 18px;
   font-weight: 600;
@@ -429,8 +410,6 @@ td{
   text-align: center;
 }
 .habits{
-  width: 1100px;
-  height: 820px;
   margin: 50px;
   margin-left: 80px;
   /* border: 2px solid maroon; */
@@ -450,8 +429,6 @@ td{
   text-align: justify;
 }
 .habits .habits-container{
-  width: 1100px;
-  height: 550px;
   border-radius: 20px;
   /* border: 1px solid darkgoldenrod; */
   display: flex;
@@ -467,7 +444,7 @@ td{
   margin: 20px;
 }
 .habits .habits-container .left-side .habit{
-  width: 510px;
+  width: 500px;
   height: 90px;
   border-radius: 20px;
   background-color: rgba(0, 0, 139, 0.26);
@@ -483,7 +460,6 @@ td{
   align-items: center;
   font-size: 18px;
 }
-
 .habits .habits-container .left-side .habit .visual{
   width: 120px;
   border: 1px solid black;
@@ -511,10 +487,10 @@ td{
   height: 510px;
   /* border: 1px solid rgba(245, 243, 243, 0.63); */
   border-radius: 10px;
-  margin: 20px;
+  margin: 15px;
 }
 .habits .habits-container .right-side .habit{
-  width: 510px;
+  width: 500px;
   height: 90px;
   border-radius: 20px;
   background-color: rgba(0, 0, 139, 0.26);
@@ -529,7 +505,6 @@ td{
   align-items: center;
   font-size: 18px;
 }
-
 .habits .habits-container .right-side .habit .visual{
   width: 120px;
   border: 1px solid black;
@@ -580,7 +555,6 @@ td{
   padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
-  /* row-gap: 20px; */
   column-gap: 5px;
   border-radius: 30px;
 }
@@ -592,7 +566,6 @@ td{
   gap: 20px;
   border-radius: 20px;
   column-gap: 20px;
-  /* row-gap: -20px; */
 }
 .trainer-grp .photos-layout .name-up{
   width: 310px;
@@ -636,7 +609,6 @@ td{
   margin-bottom: 0px;
   border-radius: 20px;  
 }
-
 .footer .footer-content{
   width: 1100px;
   height: 330px;
@@ -660,7 +632,6 @@ td{
   font-family: Georgia;
   font-style: italic;
 }
-
 .footer .footer-content .footer-left .description{
   font-size: 18px;
   color: #ffffffb0;
@@ -729,9 +700,6 @@ td{
   margin-top: 25px;
 }
 /* Responsive Web Development */
-.hide{
-  display: none;  
-}
 @media screen and (max-width: 576px)
 {
   body{
@@ -818,6 +786,224 @@ td{
   }
   .lifestyles div>p{
     font-size: 18px;
+  }
+  .run{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px; 
+  }
+  .run .run-content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .run .run-content .heading{
+    font-size: 2em;
+    margin: 0;
+    width: 100%;
+  }
+  .run .run-content .description{
+    margin-bottom: 30px;
+  }
+  .run .run-content .run-btn{
+    width: 100%;
+    border-radius: 30px;
+  }
+  .run .run-image .running-pic{
+    width: 100%;
+    margin: 0;
+    margin-top: 40px;
+    height: 100%;
+  }
+  .run .run-content .run-btn .primary{
+    font-size: 2em;
+  }
+  .chart{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .chart .text .heading{
+    font-size: 2em;
+  }
+  .chart .text .description{
+    text-align: justify;
+  }
+  .chart .content{
+    flex-direction: column;
+    width: 100%;
+  }
+  .chart .content .chart-content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .chart .content .chart-content .heading{
+    font-size: 1.5rm;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .chart .content .calculator-content{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+  }
+  .chart .content .calculator-content .heading{
+    margin-top: 20px;
+  }
+  .bmi-form .height{
+    margin: 0;
+    padding: 0;
+  }
+  .chart .content .calculator-content .heading{
+    text-align: center;
+  }
+  .habits{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .habits .habits-container{
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .habits .heading{
+    padding: 20px;
+    text-align: start;
+    font-size: 1.5em;
+    text-align: justify;
+  }
+  .habits .description{
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .habits .habits-container .left-side{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .habits .habits-container .left-side .habit{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .habits .habits-container .left-side .habit .serial-no{
+    width: 100%;
+    margin: 0;
+    font-size: 2em;
+  }
+  .habits .habits-container .left-side .habit .visual{
+    width: 50%;
+    height: 40%;
+    margin: 0 95px;
+  }
+  .habits .habits-container .left-side .habit .about{
+    height: 10%;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .habits .habits-container .right-side{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .habits .habits-container .right-side .habit{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .habits .habits-container .right-side .habit{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .habits .habits-container .right-side .habit .serial-no{
+    width: 100%;
+    margin: 0;
+    font-size: 2em;
+  }
+  .habits .habits-container .right-side .habit .visual{
+    width: 50%;
+    height: 40%;
+    margin: 0 95px;
+  }
+  .habits .habits-container .right-side .habit .about{
+    height: 10%;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .trainer-grp{
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+  .grp-info{
+    width: calc(100vw - 40px);
+    height: 100%;
+    margin: 0;
+  }
+  .trainer-grp .grp-info .heading{
+    text-align: start;
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 0;
+  }
+  .trainer-grp .grp-info .description{
+    font-size: 18px;
+    padding: 20px 0;
+    margin: 0;
+    text-align: justify;
+  }
+  .trainer-grp .photos-layout{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .trainer-grp .photos-layout>.pic{
+    width: 85%;
+    height: 85%;
+    padding: 10px 0;
+    margin: 0;
+  }
+  .footer{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  .footer .footer-content{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .footer .footer-content .footer-left{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+  .footer .footer-btn{
+    width: calc(100vw - 40px);
+    margin: 0;
+  }
+  .footer .footer-btn .ending{
+    width: 90vw;
+    margin: 20px 0;
+    
   }
 }
   
